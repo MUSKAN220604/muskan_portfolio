@@ -1,0 +1,48 @@
+import type { IconType } from "react-icons";
+import {
+  SiC,
+  SiCplusplus,
+  SiOpenjdk,
+  SiPython,
+  SiMysql,
+  SiPostgresql,
+  SiSqlite,
+  SiHtml5,
+  SiCss,
+  SiJavascript,
+  SiTypescript,
+  SiReact,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiFastapi,
+  SiFlask,
+  SiFigma,
+  SiGit,
+  SiGithub,
+  SiLinux,
+} from "react-icons/si";
+
+type IconEntry = { Icon: IconType; color: string };
+
+export const skillIcons: Record<string, IconEntry> = {
+  C: { Icon: SiC, color: "#A8B9CC" },
+  "C++": { Icon: SiCplusplus, color: "#00599C" },
+  Java: { Icon: SiOpenjdk, color: "#ED8B00" },
+  Python: { Icon: SiPython, color: "#3776AB" },
+  MySQL: { Icon: SiMysql, color: "#4479A1" },
+  PostgreSQL: { Icon: SiPostgresql, color: "#4169E1" },
+  SQLite: { Icon: SiSqlite, color: "#003B57" },
+  HTML: { Icon: SiHtml5, color: "#E34F26" },
+  CSS: { Icon: SiCss, color: "#663399" },
+  JavaScript: { Icon: SiJavascript, color: "#F7DF1E" },
+  TypeScript: { Icon: SiTypescript, color: "#3178C6" },
+  "React.js": { Icon: SiReact, color: "#61DAFB" },
+  "Next.js": { Icon: SiNextdotjs, color: "currentColor" },
+  "Tailwind CSS": { Icon: SiTailwindcss, color: "#06B6D4" },
+  FastAPI: { Icon: SiFastapi, color: "#009688" },
+  Flask: { Icon: SiFlask, color: "currentColor" },
+  Figma: { Icon: SiFigma, color: "#F24E1E" },
+  Git: { Icon: SiGit, color: "#F05032" },
+  GitHub: { Icon: SiGithub, color: "currentColor" },
+  Linux: { Icon: SiLinux, color: "#FCC624" },
+};
